@@ -1,10 +1,11 @@
 import { Observable } from 'rxjs/Observable';
-import { CategoryService, Speciality } from './../category.service';
-import { UserService, User } from './../user.service';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from "@angular/router";
 import 'rxjs/add/operator/pluck';
 import 'rxjs/add/operator/switchMap';
+
+import { CategoryService, Speciality } from './../category.service';
+import { UserService, User } from './../user.service';
 
 @Component({
   selector: 'profiza-profile',

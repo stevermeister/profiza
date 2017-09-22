@@ -1,12 +1,13 @@
 import { HttpClient } from '@angular/common/http';
-import { UserModel } from './user.service';
-import { Speciality, Category, CategoryService } from './category.service';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/observable/from';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/mergeMap';
 import 'rxjs/add/operator/reduce';
+
+import { UserModel } from './user.service';
+import { Speciality, Category, CategoryService } from './category.service';
 
 import { users } from '../data-mocks/users';
 

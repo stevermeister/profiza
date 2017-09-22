@@ -1,13 +1,15 @@
-import { UserService, User } from './../user.service';
-import { CategoryService, Category, Speciality } from './../category.service';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from "@angular/router";
+
+import { UserService, User } from './../user.service';
+import { CategoryService, Category, Speciality } from './../category.service';
 
 @Component({
   selector: 'profiza-search',
   templateUrl: './search.component.html',
   styleUrls: ['./search.component.css']
 })
+
 export class SearchComponent implements OnInit {
 
   public users: User[] = [];

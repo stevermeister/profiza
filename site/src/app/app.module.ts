@@ -1,11 +1,13 @@
-import { CityService } from './city.service';
-import { UserService } from './user.service';
-import { CategoryService } from './category.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule, Routes } from '@angular/router';
+
+import { CityService } from './city.service';
+import { UserService } from './user.service';
+import { CategoryService } from './category.service';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -40,7 +42,6 @@ import { ProfileComponent } from './profile/profile.component';
 import { ProfileUserCardComponent } from './profile/profile-user-card/profile-user-card.component';
 import { ProfileUserAsideInfoComponent } from './profile/profile-user-aside-info/profile-user-aside-info.component';
 import { ProfileAlsoLikeComponent } from './profile/profile-also-like/profile-also-like.component';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { StepConterComponent } from './registration/step-conter/step-conter.component';
 import { AdminComponent } from './admin/admin.component';
 import { ToArrayPipe } from './to-array.pipe';
